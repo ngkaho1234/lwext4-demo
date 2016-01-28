@@ -26,8 +26,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "include/ext4.h"
-#include "include/ext4_debug.h"
+#include "../lwext4/lwext4/ext4.h"
 
 #include "test_lwext4.h"
 

@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="原始程式檔\lib">
-      <UniqueIdentifier>{1b94cce5-d2d5-4f4c-9149-c3f5f26c6bd9}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -29,34 +26,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\ext4_config.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ext4_types.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ext4.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ext4_blockdev.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
     <ClInclude Include="blockdev.h">
       <Filter>原始程式檔</Filter>
     </ClInclude>
     <ClInclude Include="test_lwext4.h">
       <Filter>原始程式檔</Filter>
     </ClInclude>
-    <ClInclude Include="include\ext4_debug.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ext4_errno.h">
-      <Filter>標頭檔</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="lib\liblwext4.lib">
-      <Filter>原始程式檔\lib</Filter>
-    </Library>
   </ItemGroup>
 </Project>

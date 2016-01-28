@@ -1,0 +1,5 @@
+Z:/ArchLinux主機/source/lwext4-demo/lwext4 example/lwext4_build/lwext4/CMakeFiles/lwext4.dir
+Z:/ArchLinux主機/source/lwext4-demo/lwext4 example/lwext4_build/CMakeFiles/ALL_BUILD.dir
+Z:/ArchLinux主機/source/lwext4-demo/lwext4 example/lwext4_build/blockdev/CMakeFiles/blockdev.dir
+Z:/ArchLinux主機/source/lwext4-demo/lwext4 example/lwext4_build/CMakeFiles/ZERO_CHECK.dir
+Z:/ArchLinux主機/source/lwext4-demo/lwext4 example/lwext4_build/CMakeFiles/dist.dir

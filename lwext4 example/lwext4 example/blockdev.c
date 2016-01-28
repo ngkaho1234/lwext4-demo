@@ -1,6 +1,4 @@
-#include "include/ext4_config.h"
-#include "include/ext4_blockdev.h"
-#include "include/ext4_errno.h"
+#include "../lwext4/lwext4/ext4_blockdev.h"
 #include <assert.h>
 #include <stdio.h>
 #include <stdbool.h>

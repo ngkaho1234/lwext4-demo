@@ -120,16 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="blockdev.h" />
-    <ClInclude Include="include\ext4.h" />
-    <ClInclude Include="include\ext4_blockdev.h" />
-    <ClInclude Include="include\ext4_config.h" />
-    <ClInclude Include="include\ext4_debug.h" />
-    <ClInclude Include="include\ext4_errno.h" />
-    <ClInclude Include="include\ext4_types.h" />
     <ClInclude Include="test_lwext4.h" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="lib\liblwext4.lib" />
+    <ProjectReference Include="..\lwext4_build\lwext4\lwext4.vcxproj">
+      <Project>{62e21c50-f232-3092-8624-a8ad87330e40}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

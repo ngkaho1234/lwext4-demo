@@ -1,0 +1,15 @@
+﻿  blockdev.c
+blockdev.c(103): warning C4244: 'initializing': conversion from 'uint64_t' to 'LONG', possible loss of data
+blockdev.c(104): warning C4244: 'initializing': conversion from 'uint64_t' to 'LONG', possible loss of data
+blockdev.c(128): warning C4244: 'initializing': conversion from 'uint64_t' to 'LONG', possible loss of data
+blockdev.c(129): warning C4244: 'initializing': conversion from 'uint64_t' to 'LONG', possible loss of data
+  main.c
+  test_lwext4.c
+test_lwext4.c(242): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+test_lwext4.c(277): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  Generating code
+z:\archlinux主機\source\lwext4-demo\lwext4 example\lwext4 example\test_lwext4.c(75): warning C4716: 'tim_get_ms': must return a value
+  All 26 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  lwext4 example.vcxproj -> Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\Release\lwext4 example.exe
+  lwext4 example.vcxproj -> Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\Release\lwext4 example.pdb (Full PDB)

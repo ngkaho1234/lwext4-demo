@@ -1,0 +1,43 @@
+﻿  Building Custom Rule Z:/ArchLinux主機/source/lwext4-demo/lwext4 example/lwext4/lwext4/CMakeLists.txt
+  CMake does not need to re-run because Z:\ArchLinux涓绘\source\lwext4-demo\lwext4 example\lwext4_build\lwext4\CMakeFiles\generate.stamp is up-to-date.
+  ext4.c
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4.c(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4.c(361): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ext4_balloc.c
+  ext4_bcache.c
+  ext4_bitmap.c
+  ext4_block_group.c
+  ext4_blockdev.c
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_blockdev.c(120): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  ext4_crc32.c
+  ext4_debug.c
+  ext4_dir.c
+  ext4_dir_idx.c
+  ext4_extent.c
+  ext4_fs.c
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(350): warning C4244: '=': conversion from 'ext4_fsblk_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1143): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1095): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1099): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1332): warning C4244: 'function': conversion from 'uint64_t' to 'ext4_lblk_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1416): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1369): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1371): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1599): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1479): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_fs.c(1482): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  ext4_hash.c
+  ext4_ialloc.c
+  ext4_inode.c
+  ext4_journal.c
+  ext4_mbr.c
+  ext4_mkfs.c
+Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4\lwext4\ext4_mkfs.c(265): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+  ext4_super.c
+  ext4_trans.c
+  Generating Code...
+  Compiling...
+  ext4_xattr.c
+  Generating Code...
+  lwext4.vcxproj -> Z:\ArchLinux主機\source\lwext4-demo\lwext4 example\lwext4_build\lwext4\Release\lwext4.lib
